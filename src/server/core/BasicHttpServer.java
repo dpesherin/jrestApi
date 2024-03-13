@@ -1,6 +1,5 @@
-package server;
+package server.core;
 
-import com.sun.net.httpserver.HttpContext;
 import com.sun.net.httpserver.HttpServer;
 
 import java.io.IOException;

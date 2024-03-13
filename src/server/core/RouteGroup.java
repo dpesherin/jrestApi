@@ -1,6 +1,7 @@
-package server;
+package server.core;
 
 import org.jetbrains.annotations.NotNull;
+import server.core.Route;
 
 import java.util.ArrayList;
 

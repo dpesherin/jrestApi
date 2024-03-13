@@ -3,7 +3,7 @@ package server.handlers;
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
 import server.ErrorNotification;
-import server.Response;
+import server.core.Response;
 
 import java.io.IOException;
 public class ApiHandler implements HttpHandler {

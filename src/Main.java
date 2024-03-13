@@ -1,5 +1,4 @@
-import server.BasicHttpServer;
-import server.Core;
+import server.core.Core;
 
 import java.io.IOException;
 
