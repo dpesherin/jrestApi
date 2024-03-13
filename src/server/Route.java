@@ -2,6 +2,7 @@ package server;
 
 
 import com.sun.net.httpserver.HttpHandler;
+import org.jetbrains.annotations.NotNull;
 
 interface RouteAction {
     void execute();
@@ -16,7 +17,7 @@ public class Route {
         this.handler = handler;
     }
 
-    public void add(RouteAction action) {
+    public void add(@NotNull RouteAction action) {
         action.execute();
     }
 }
