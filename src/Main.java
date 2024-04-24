@@ -6,7 +6,7 @@ import java.io.IOException;
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) throws IOException {
-        System.out.println("Starting server");
+        System.out.println("Starting server 2");
         Core.Init();
         System.out.println("Server was started");
     }
